@@ -1,6 +1,6 @@
 <img src="media/branding/elab-logo.png" alt="ELab 标志" width="72" height="72">
 
-# ELab 电气虚拟实验室
+# ELab 电气实验室
 
 [English](README.md)
 

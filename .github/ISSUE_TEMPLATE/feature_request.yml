@@ -1,0 +1,21 @@
+name: Feature request / 功能建议
+description: Suggest an improvement to ELab / 提出 ELab 改进建议
+body:
+  - type: textarea
+    id: task
+    attributes:
+      label: What are you trying to do? / 你希望完成什么任务？
+      description: Describe the scenario and where you get stuck / 描述使用场景及遇到的问题
+    validations:
+      required: true
+  - type: textarea
+    id: desired_outcome
+    attributes:
+      label: How should ELab help? / 希望 ELab 如何帮助你？
+      description: Explain the result you would like to achieve / 说明希望达到的结果
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Platform, if relevant / 相关平台（如适用）

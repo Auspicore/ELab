@@ -1,0 +1,39 @@
+name: Bug report / 问题反馈
+description: Report a reproducible problem in ELab / 报告 ELab 中可复现的问题
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This report is public. Remove private project details, activation information, and personal information before submitting.
+
+        此报告公开可见。提交前请移除工程保密内容、激活信息及个人信息。
+  - type: input
+    id: version
+    attributes:
+      label: ELab version / ELab 版本
+      placeholder: Version shown in ELab or on the release page / 软件或发行页显示的版本
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Operating system, version, and architecture / 系统、版本和架构
+      placeholder: Windows 11 x64
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / 复现步骤
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Expected result and actual result / 预期结果与实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Screenshot or shareable example / 截图或可公开的最小复现样例

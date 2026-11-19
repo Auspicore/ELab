@@ -1,5 +1,3 @@
-<img src="media/branding/elab-logo.png" alt="ELab 标志" width="72" height="72">
-
 # ELab 电气实验室
 
 [English](README.md)
@@ -12,7 +10,7 @@
 
 **Windows** · 发行准备中 ｜ **Linux** · 发行准备中 ｜ **macOS** · 发行准备中
 
-[下载 ELab](#download-elab) · [产品演示](#product-demo) · [了解核心功能](#core-capabilities) · [反馈问题](#feedback-and-licensing)
+[下载 ELab](#download-elab) · [产品演示](#product-demo) · [了解核心功能](#core-capabilities) · [版本更新](#release-history) · [反馈问题](#feedback-and-licensing)
 
 <a name="download-elab"></a>
 
@@ -27,39 +25,56 @@
 | macOS | Intel x64 | 发行准备中 |
 | macOS | Apple Silicon ARM64 | 发行准备中 |
 
-目前暂无稳定版或公开测试版下载。各平台发行时将列明已测试系统、安装包类型、版本、文件大小和 SHA-256 校验值。
+公开桌面安装包仍在准备。各平台发行时将列明已测试系统、安装包类型、版本、文件大小和 SHA-256 校验值。
 
-[下载指南](docs/download.md#zh-cn) · [安装与校验](docs/installation.md#zh-cn)
-
-![ELab 平台概览，Windows、Linux 和 macOS 均在准备发行。](media/branding/elab-platforms-zh-CN.png)
+[离线文档 v1.1.0](https://github.com/Auspicore/ELab/releases/tag/docs-v1.1.0) · [下载指南](docs/download.md#zh-cn) · [安装与校验](docs/installation.md#zh-cn)
 
 <a name="core-capabilities"></a>
 
 ## 核心功能
 
-- **原理图设计。** 查找和放置元件、连接端子、编辑元件属性，再通过图纸导航查看控制回路。
-- **动态仿真。** 启动实验，操作开关与按钮，在原理图上观察接触器、电动机或指示灯的变化。
-- **虚拟实训。** 以电动机起保停为例，观察自保持、停止及过载脱扣对控制回路的影响。
+### 绘制与组织原理图
+
+- 搜索并预览断路器、按钮、接触器和电动机等元件，再放置到图纸上。
+- 从端子到端子绘制导线，修改设备属性和线号，也可撤销操作回到先前的设计。
+- 将主回路、控制回路和指示回路分图绘制，通过跨页引用找到同一设备的线圈与触点。
+
+### 运行与观察控制回路
+
+- 在实时仿真中操作开关、按钮及保护器件，直接在原理图上观察触点、电动机与指示灯的状态变化。
+- 在操作台暂停或单步执行，查看事件时间线，了解各器件发生动作的先后顺序。
+- 用起保停案例观察自保持，再通过热继电器模拟过载脱扣，对照两次实验结果。
+
+### 检查设计、规划布置与导出
+
+- 运行设计校验查找接线和设备引用问题，并根据提示定位到相关对象或图纸。
+- 在安装板上规划导轨、线槽和设备位置，通过布置检查发现重叠或越界。
+- 生成可搜索的设备表、端子表和连接表，将工程报表导出为 CSV、原理图导出为 SVG，便于评审与归档。
 
 <a name="product-demo"></a>
 
 ## 产品演示
 
-演示视频待发布。可以先阅读[电动机起保停实验](docs/quick-start.md#motor-startstop-zh)，了解操作顺序和预期结果。
+**松开启动按钮后，电动机为什么还在运行？** 按顺序观察接触器吸合、辅助触点形成自保持回路，以及按下停止按钮后接触器释放。然后模拟热继电器脱扣，对照两次停机的事件。实验指南列出了每一步的预期结果。[电动机起保停实验](docs/quick-start.md#motor-startstop-zh)
 
 ## 典型应用场景
 
-- **电气控制设计。** 绘制控制回路，在与同事评审前检查预期的控制顺序。
-- **课堂演示。** 投影运行中的原理图，观察电动机启动、自保持和停止时接触器的变化。
-- **自主练习。** 重复同一个实验，每次改变一个操作并比较结果，练习故障排查。
+- **电气设计评审。** 分图绘制主回路和控制回路，追查相关触点，带着设备表与端子表参加评审。
+- **课堂演示。** 请学生先判断松开启动按钮后电动机会不会继续运行，再通过实时原理图核对判断。
+- **自主排障练习。** 分别使用停止按钮和热继电器脱扣来停止电动机，通过事件时间线对照两种停机过程。
 
 ## 30 秒快速了解
 
-取得适用平台的版本后，打开**案例库**并创建电动机起保停实验。启动实时仿真，合上断路器，操作启动和停止按钮，观察电动机状态。[查看完整步骤](docs/quick-start.md#zh-cn)
+取得适用平台的版本后，在**案例库**创建一个可编辑的电动机控制案例副本。打开**实时仿真**，合上断路器，按下并松开启动按钮。观察电动机和接触器，再按下停止按钮。[查看完整步骤](docs/quick-start.md#zh-cn)
+
+<a name="release-history"></a>
 
 ## 版本更新
 
-[查看版本记录](CHANGELOG.md#zh-cn)
+- **文档 v1.1.0** 补充设计与仿真流程、电动机控制实验和平台指南。[发行说明与离线文档](https://github.com/Auspicore/ELab/releases/tag/docs-v1.1.0)
+- **文档 v1.0.0** 归档首版双语产品介绍与快速上手指南。[发行说明与离线文档](https://github.com/Auspicore/ELab/releases/tag/docs-v1.0.0)
+
+[全部 GitHub Releases](https://github.com/Auspicore/ELab/releases) · [更新记录](CHANGELOG.md#zh-cn)
 
 <a name="feedback-and-licensing"></a>
 

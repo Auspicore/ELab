@@ -1,8 +1,8 @@
 <img src="media/branding/elab-logo.png" alt="ELab logo" width="72" height="72">
 
-# ELab — Electrical Virtual Laboratory
+# ELab — Electrical Laboratory
 
-**ELab 电气虚拟实验室** · [简体中文](README.zh-CN.md)
+[简体中文](README.zh-CN.md)
 
 **Learn once. Use across platforms.**
 
@@ -10,7 +10,7 @@ Electrical design, dynamic simulation, and virtual experiments in ELab.
 
 Draw electrical control schematics, run experiments, and observe how circuits respond. ELab is designed for electrical and automation engineers, students, teachers, and vocational training programs.
 
-**Windows x64** · In preparation | **Linux** · Not currently available | **macOS** · Not currently available
+**Windows** · In preparation | **Linux** · In preparation | **macOS** · In preparation
 
 [Download ELab](#download-elab) · [Product demo](#product-demo) · [Explore capabilities](#core-capabilities) · [Send feedback](#feedback-and-licensing)
 
@@ -19,17 +19,17 @@ Draw electrical control schematics, run experiments, and observe how circuits re
 | Platform | Architecture | Public availability |
 | --- | --- | --- |
 | Windows | x64 | In preparation |
-| Windows | ARM64 | Not currently available |
-| Linux | x64 | Not currently available |
-| Linux | ARM64 | Not currently available |
-| macOS | Intel x64 | Not currently available |
-| macOS | Apple Silicon ARM64 | Not currently available |
+| Windows | ARM64 | In preparation |
+| Linux | x64 | In preparation |
+| Linux | ARM64 | In preparation |
+| macOS | Intel x64 | In preparation |
+| macOS | Apple Silicon ARM64 | In preparation |
 
 There are currently no public Stable or Preview downloads. Each published build will list its tested operating systems, package type, version, size, and SHA-256 checksum.
 
 [Download guide](docs/download.md) · [Installation and verification](docs/installation.md)
 
-![ELab platform overview with Windows x64 in preparation and Linux and macOS listed as distribution targets](media/branding/elab-platforms-en.png)
+![ELab platform overview. Windows, Linux, and macOS are in preparation.](media/branding/elab-platforms-en.png)
 
 ## Core capabilities
 

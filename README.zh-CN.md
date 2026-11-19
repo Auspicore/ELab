@@ -2,7 +2,7 @@
 
 # ELab 电气虚拟实验室
 
-**ELab — Electrical Virtual Laboratory** · [English](README.md)
+[English](README.md)
 
 **一次学习，多平台使用。**
 
@@ -10,7 +10,7 @@
 
 绘制电气控制原理图，启动虚拟实验，观察电路如何响应。ELab 面向电气工程师、自动化工程师、学生、教师及职业教育机构。
 
-**Windows x64** · 发行准备中 ｜ **Linux** · 暂不支持 ｜ **macOS** · 暂不支持
+**Windows** · 发行准备中 ｜ **Linux** · 发行准备中 ｜ **macOS** · 发行准备中
 
 [下载 ELab](#download-elab) · [产品演示](#product-demo) · [了解核心功能](#core-capabilities) · [反馈问题](#feedback-and-licensing)
 
@@ -21,17 +21,17 @@
 | 平台 | 架构 | 公开发布状态 |
 | --- | --- | --- |
 | Windows | x64 | 发行准备中 |
-| Windows | ARM64 | 暂不支持 |
-| Linux | x64 | 暂不支持 |
-| Linux | ARM64 | 暂不支持 |
-| macOS | Intel x64 | 暂不支持 |
-| macOS | Apple Silicon ARM64 | 暂不支持 |
+| Windows | ARM64 | 发行准备中 |
+| Linux | x64 | 发行准备中 |
+| Linux | ARM64 | 发行准备中 |
+| macOS | Intel x64 | 发行准备中 |
+| macOS | Apple Silicon ARM64 | 发行准备中 |
 
 目前暂无稳定版或公开测试版下载。各平台发行时将列明已测试系统、安装包类型、版本、文件大小和 SHA-256 校验值。
 
 [下载指南](docs/download.md#zh-cn) · [安装与校验](docs/installation.md#zh-cn)
 
-![ELab 平台概览，Windows x64 正在准备发行，Linux 与 macOS 为目标平台](media/branding/elab-platforms-zh-CN.png)
+![ELab 平台概览，Windows、Linux 和 macOS 均在准备发行。](media/branding/elab-platforms-zh-CN.png)
 
 <a name="core-capabilities"></a>
 

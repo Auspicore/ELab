@@ -2,7 +2,7 @@
 
 [简体中文](#zh-cn) · [Product overview](../README.md)
 
-There are currently no public downloads for Windows, Linux, or macOS.
+Windows, Linux, and macOS releases are in preparation. There are currently no public downloads.
 
 - **Stable** releases are intended for regular use on the operating systems and architectures listed in the release notes.
 - **Preview** releases are intended for compatibility testing. Review the known limitations before downloading.
@@ -17,7 +17,7 @@ Choose x64 or ARM64 to match your system. On macOS, choose the Intel build for a
 
 [产品介绍](../README.zh-CN.md)
 
-目前 Windows、Linux 和 macOS 均暂无公开下载。
+Windows、Linux 和 macOS 均在准备发行，目前暂无公开下载。
 
 - **稳定版（Stable）** 适用于发行说明列出的操作系统和架构，供日常使用。
 - **公开测试版（Preview）** 用于兼容性测试。下载前请阅读已知限制。
